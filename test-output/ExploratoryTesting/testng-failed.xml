@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ExploratoryTesting]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Sanity(failed)">
+    <classes>
+      <class name="SELENIUMPROJECT01.Selectprodfromdd">
+        <methods>
+          <include name="buyfromdropdown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- SELENIUMPROJECT01.Selectprodfromdd -->
+      <class name="SELENIUMPROJECT01.login">
+        <methods>
+          <include name="invalidlogin"/>
+          <include name="setup"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- SELENIUMPROJECT01.login -->
+    </classes>
+  </test> <!-- Sanity(failed) -->
+</suite> <!-- Failed suite [ExploratoryTesting] -->
